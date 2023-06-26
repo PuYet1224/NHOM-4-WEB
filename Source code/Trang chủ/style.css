@@ -272,11 +272,35 @@ h4{
     font-weight: lighter;
     font-size: small;
 }
-.card .img img{
+.card img{
     width: 350px;
     height: auto;
     object-fit: cover;
+    z-index: 3;
+    margin-bottom: -2%;
 }
+.btimg{
+    position: relative;
+    bottom: 18px;
+    opacity: 0;
+    margin-top: -290px;
+    transition: ease-in-out 0.3s;
+}
+.btimg:hover{
+    opacity: 1;
+}
+.btimgs{
+    position: relative;
+    bottom: 18px;
+    opacity: 0;
+    margin-top: -460px;
+    transition: ease-in-out 0.3s;
+}
+.btimgs:hover{
+    opacity: 1;
+}
+
+
 #left{
     right: 3%;
     bottom: 48vh;
@@ -447,7 +471,7 @@ width: 100%;
 }
 .v{
     list-style-type: none;
-    height: 600px;
+    height: 700px;
     padding-bottom: 15px;
     align-items: center;
     justify-content: center;
