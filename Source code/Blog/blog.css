@@ -17,3 +17,17 @@
     align-self: center;
     background-repeat: no-repeat;
 }
+#page_header h1{
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+#page_header p{
+    padding: 10px;
+    font-size: 25px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 500;
+}
