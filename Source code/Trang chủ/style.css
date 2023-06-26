@@ -616,10 +616,13 @@ footer{
     border: none;
     font-size: 12px;
 }
-.a3 img{
-    margin-right: 2%;
-    margin-top: 3%;
-    width: 30px;
+
+.fa-facebook,
+.fa-facebook,
+.fa-instagram,
+.fa-twitter,
+.fa-youtube{
+    padding: 30px 5px;
 }
 
 
