@@ -350,11 +350,11 @@ footer .install img{
 .row{
     margin: 35px 0;
 }
-.col a{
+#hover_content a{
     padding-bottom: 9px;
     position: relative;
 }
-.col a::before{
+#hover_content a::before{
     content: "";
     height: 2px;
     width: 0;
@@ -364,7 +364,7 @@ footer .install img{
     left: 0;
     transition: 0.35s cubic-bezier(0.165, 0.84, 0.44, 1) ;
 }
-.col a:hover:before{
+#hover_content a:hover:before{
     width: 100%;
 }
 .copyright{
