@@ -38,6 +38,7 @@
     display: flex;
     align-items: center;
     width: 100%;
+    position: relative;
 
 }
 #blog .blog_img{
@@ -52,7 +53,6 @@
 }
 #blog .blog_details{
     width: 50%;
-    
 }
 #blog .blog_details a{
     text-decoration: none;
@@ -60,6 +60,7 @@
     color: #000;
     font-weight: 700;
     position: relative;
+    transition: all 0.35s ease;
 }
 #blog .blog_details a::after{
     content: "";
@@ -69,5 +70,22 @@
     position: absolute;
     top: 4px;
     right: -60px;
+}
+#blog .blog_details a:hover{
+    color: #088178;
+}
+#blog .blog_details a::after,
+#blog .blog_details a:hover::after{
+    color: #088178;
+}
+#blog .blog_box h1{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: #c9cbce;
+    z-index: -9;
+    font-family: 
 }
 
