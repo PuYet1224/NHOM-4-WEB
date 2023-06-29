@@ -17,8 +17,6 @@ body{
 .signin{
     padding-left: 15px;
 }
-.header_top{
-}
 .header_top ul {
     display: flex;
     justify-content: flex-end;
