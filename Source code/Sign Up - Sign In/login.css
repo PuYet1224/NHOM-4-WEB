@@ -168,10 +168,10 @@ body{
   padding: 25px;
   /* background-color: #ecf0f3; */
   background-image: url(img/background3.jpg);
-  border-radius: 5px;
+  border-radius: 10px;
   overflow: hidden;
   display: block;
-  margin: 100px auto;
+  margin: 150px auto;
   display: block;
   
 }
