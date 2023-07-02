@@ -7,6 +7,9 @@ body{
     width: 100%;
     font-family: 'Poppins', sans-serif;
 }
+li{
+    list-style: none;
+}
 /* header  */
 #header{
     margin: 0 100px;
@@ -155,6 +158,153 @@ body{
 }
 
 /* header end */
+/* page header is here  */
+#page_header{
+    background-image: url(img/book_background.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+    align-self: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+#page_header h1{
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+#page_header p{
+    padding: 10px;
+    font-size: 25px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 500;
+}
+/* page header end  */
+
+/* body is here */
+#contact_details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#contact_details .details{
+    width: 43%;
+
+}
+#contact_details .details span,
+#form_details form span{
+    font-size: 15px;
+}
+#contact_details .details h2,
+#form_details form h2{
+    font-size: 30px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+#contact_details .details h3{
+    font-size: 20px;
+    padding-bottom: 16px ;
+}
+#contact_details .details li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 17px 0;
+}
+#contact_details .details li i{
+    font-size: 17px;
+    padding-right: 20px;
+
+}
+#contact_details .details li p {
+    margin: 0;
+    font-size: 17px;
+}
+#contact_details .map{
+    width: 48%;
+    height: 400px;
+
+}
+#contact_details .map iframe{
+    height: 100%;
+    width: 100%;
+}
+
+#form_details{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    padding: 100px;
+    border: 1px solid #e1e1e1;
+}
+#form_details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#form_details form input,
+#form_details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+#form_details form button{
+    background-color: #088178;
+    color: #fff;
+    font-size: 15px;
+    white-space: nowrap;
+    padding: 15px 35px ;
+    margin-top: 8px ;
+    border-radius: 8px ;
+    border: none;
+    cursor: pointer;
+    white-space: 10px;
+    transition: all 0.35s ease;
+}
+#form_details form button:hover{
+    background-color: #055f59;
+}
+#form_details .people div{
+    padding-bottom: 40px;
+    display: flex;
+    align-items: flex-start;
+
+}
+#form_details .people div img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 35px;
+}
+#form_details .people div p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+
+}
+#form_details .people div p span{
+    display: block;
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 3px;
+}
+
+
+/* body end  */
+
 /* email is here  */
 .section_p1{
     padding: 40px 150px;
