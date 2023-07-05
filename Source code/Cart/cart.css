@@ -17,8 +17,6 @@ body{
 .signin{
     padding-left: 15px;
 }
-.header_top{
-}
 .header_top ul {
     display: flex;
     justify-content: flex-end;
@@ -151,203 +149,48 @@ body{
     color: black;
     float: right;
     width: 25px;
+    
 }
 
 /* header end */
 
 
-body article{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-.section2{
-    width: 48%;
-}
-body article .section2 img{
-    width: 100%;
-    margin-top: 30px;
-}
-body article .section1,.section3{
-    width: 20%;
-}
-.qqq{
-    margin-top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    margin-left: 5vw;
-    margin-bottom: 70px;
-}
-.qqq ul li{
-    list-style-type: none;
 
-}
-.qqq ul li a{
-    color: #1a1a1a;
-    padding: 0 5px;
-}
-.section1{
-    margin: 0 20px 0 50px;
-    border-top: 1px solid;
-}
-.section1 h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-size: 27px;
-    font-weight: 100;
+
+
+/* page header is here  */
+#page_header{
+    background-image: url(img/book_background.jpg);
     width: 100%;
-    margin-top: 25px;
-}
-.section1 h2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight:500;
-    margin: 10px 0;
-}
-.section1 h3{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: lighter;
-    font-size: 15px;
-    width: 70%;
-    margin: 8px 0;
-}
-.section1,.section2,.section3{
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+    align-self: center;
+    background-repeat: no-repeat;
     margin-top: 50px;
 }
-.small-img{
-    width: 100%;
-    margin-top: 30px;
-}
-.small-img img{
-    width: 30%;
-    margin: 2px 2px;
-    cursor: pointer;
-}
-.bt input{
-    margin: 6px 0;
-    padding: 11px 0;
-    width: 17%;
-}
-.bt button{
-    padding: 10px 0;
-    width: 50%;
-    padding: 12px 0;
-    font-size: 12px;
-    margin-left: 20px;
-    outline: none;
-    background-color: #021d49;
-    color: #FFFFFF;
-}
-
-.bt h4{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    font-weight: 200;
-}
-.section3{
-    border-top: 1px solid;
-}
-.section3 div{
-    font-family: 'News Cycle', sans-serif;
-    font-size: 15px;
-    width: 100%;
-    text-align: left;
-    margin-bottom: 20px;
-    margin-top: 25px;
-}
-
-#product1{
-    margin: 0 50px;
-}
-
-#product1 .pro{
-    border: 1px solid rgba(0, 0, 0, 0.123);
-    width: 30%;
-    min-width: 250px;
-    padding: 10px 12px;
-    cursor: pointer;
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-    margin: 15px 0;
-    border-radius: 10px;
-}
-#product1 .pro img{
-    width: 100%;
-    border-radius:10px;
-}
-.pro-container a{
-    text-decoration: none;
-    color: #1a1a1a;
-}
-.des h5{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: lighter;
-    font-size: 16px;
-    text-align: center;
-    margin-top: 10px;
-}
-.des span{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight:bolder;
-    font-size: 15px;
-    color: #088178;
-    position: relative;
-    top:25px;
-    left: 10px;
-}
-.cartplus span{
-    margin-top: 10px;
-    background-color: #e8f6ea;
-    color: #088178;
-    width: 42px;
-    padding: 8px 0;
-    border-radius: 30px;
-    text-align: center;
-    border: rgb(216, 216, 216) 1px solid;
-    position: relative;
-    bottom: 16px;
-    left: 88%;
-}
-.cartplus span:hover{
-    width: 50px;
-    padding: 12px 0;
-    color: #088178;
-    transition: 0.3s;
-}
-.btimg:hover{
-    opacity: 1;
-}
-.btimg{
-    position: relative;
-    bottom: 18px;
-    opacity: 0;
-    margin-top: -150%;
-    transition: ease-in-out 0.3s;
-}
-.btimg:hover{
-    opacity: 1;
-}
-.pro-container{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 20px;
-    flex-wrap: wrap;
-}
-.similar{
-    text-align: center;
+#page_header h1{
+    font-size: 60px;
+    color: #fff;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    font-size: 20px;
-    font-weight: 200;
-    letter-spacing: 2px;
-    margin-top: 20vh;
-    margin-bottom: 5vh;
+    letter-spacing: 5px;
 }
-
-
+#page_header p{
+    padding: 10px;
+    font-size: 25px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 500;
+}
+/* page header end  */
 /* email is here  */
 .section_p1{
     padding: 40px 150px;
-    margin-top: 10vh;
 }
 #newsletter{
     display: flex;
@@ -407,6 +250,121 @@ body article .section1,.section3{
 
 /* email end  */
 
+/* body is here  */
+#cart{
+    overflow-x: auto;
+}
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed ;
+    white-space: nowrap;
+}
+#cart table img{
+    width: 70px;
+}
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+
+}
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(3){
+    width: 250px;
+    text-align: center;
+}
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+#cart table thead{
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+
+}
+#cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+#cart table tbody tr td{
+    padding-top: 15px;
+}
+#cart table tbody td{
+    font-size: 13px;
+}
+
+#cart_add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+
+}
+#subtotal h3,
+#coupon h3{
+    margin-bottom: 20px;
+}
+#coupon input{
+    padding: 15px 25px;
+    outline:none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+    border-radius: 5px;
+}
+#coupon button,
+.normal{
+    background-color: #088178;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 35px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    white-space: 10px;
+    transition: all 0.35s ease;
+}
+#coupon button:hover,
+.normal:hover{
+    background-color: #055f59;
+}
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#subtotal table td{
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+}
+
+/* body end  */
+
 /* footer is here */
 .section_p1{
     padding: 40px 150px;
@@ -421,7 +379,6 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-family: 'Poppins', sans-serif;
 }
 footer .col{
     display: flex;
@@ -467,34 +424,36 @@ footer .follow{
 footer .install img{
     margin: 50px 0;
 }
-#page_header{
-    background-image: url(img/book_background.jpg);
+.row{
+    margin: 35px 0;
+}
+#hover_content a{
+    padding-bottom: 9px;
+    position: relative;
+}
+#hover_content a::before{
+    content: "";
+    height: 2px;
+    width: 0;
+    background-color: #088178;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.35s cubic-bezier(0.165, 0.84, 0.44, 1) ;
+}
+#hover_content a:hover:before{
     width: 100%;
-    height: 40vh;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    padding: 14px;
-    align-self: center;
-    background-repeat: no-repeat;
-}
-#page_header h1{
-    font-size: 60px;
-    color: #fff;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    letter-spacing: 5px;
-}
-#page_header p{
-    padding: 10px;
-    font-size: 25px;
-    color: #fff;
-    font-style: italic;
-    font-weight: 500;
 }
 .copyright{
     text-align: center;
     padding-bottom: 40px;
 }
+
+/* footer end  */
+/* reponsice is here  */
+@media screen and (max-width: 376px) {
+    .header_bottom{
+        display: none;
+    }
+}
+/* reponsive end  */

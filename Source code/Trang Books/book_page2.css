@@ -155,6 +155,18 @@ a{
     width: 25px;
     
 }
+.shopping span{
+    font-size: 9px;
+    background-color: rgba(215, 85, 85, 0.93);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color:#FFFFFF;
+    position: absolute;
+    top: 205px;
+    right: 92px;
+    padding: 3px 7px;
+}
 
 /* header end */
 /* email is here  */
