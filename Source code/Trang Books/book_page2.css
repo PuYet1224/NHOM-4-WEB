@@ -397,12 +397,13 @@ footer .install img{
     position: relative;
     bottom: 16px;
     left: 88%;
+    transition: all ease 0.35s;
 }
 .cartplus span:hover{
     width: 50px;
+    height: auto;
     padding: 12px 0;
-    color: #088178;
-    transition: 0.3s;
+    color: #055f59;
 }
 .btimg:hover{
     opacity: 1;

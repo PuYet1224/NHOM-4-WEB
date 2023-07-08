@@ -7,9 +7,11 @@ body{
     width: 100%;
     font-family: 'Poppins', sans-serif;
 }
+
 /* header  */
 #header{
     margin: 0 100px;
+
 }
 .help_login{
     padding: 15px;
@@ -113,6 +115,7 @@ body{
     justify-content: space-between;
     border-bottom: #222 1px solid;
     padding-bottom: 50px;
+
 }
 .header_bottom ul{
     display: flex;
@@ -429,6 +432,10 @@ footer .install img{
 
 /* responsive is here  */
 @media (max-width: 799px) {
+    /* header is here  */
+    #header{
+        margin: 20px 50px;
+    }
     #menu{
         padding: 50px 0 0 0 ;
         position: fixed;
@@ -486,14 +493,38 @@ footer .install img{
     #close{
         display: block;
     }
+    .shopping span{
+        top: 222px;
+        right: 45px;
+    }
     .search-box:focus {
         width: 200px;
     }
     .fa-bag-shopping{
         font-size: 20px;
     }
+    .search-container{
+        right: 5px;
+    }
+    #page_header h1{
+        font-size: 38px;
+    }
+    #page_header{
+        height: 25vh;
+    }
+    #page_header p{
+        font-size: 15px;
+    }
 
+    /* header end */
+    .section_p1{
+        padding: 20px 75px;
+    }
 }
+@media (max-width: 477px) {
+    body{
 
+    }
+}
 
 /* responsive end  */
