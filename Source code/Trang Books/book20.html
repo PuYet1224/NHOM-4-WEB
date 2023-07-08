@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>book1</title>
     <link rel="stylesheet" href="book1.css">
-    <script src="script1.js"></script>
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
 
 <body>
        <!-- header is here  -->
-       <section id="header">
+    <section id="header">
         <div class="header_top">
             <ul class="header_items">
                 <li><a class="help_login" href="#">Help</a>
@@ -28,6 +28,7 @@
             </ul>
         </div>
         <div class="header_mid">
+            <i id="open" class="fa-solid fa-bars"></i>
             <select class="ngon_ngu" name="" id="">
                 <option value="">VN</option>
                 <option value="">EN</option>
@@ -41,16 +42,24 @@
         </div>
         <div class="header_bottom">
             <span></span>
-            <ul class="menu">
+            <ul id="menu">
                 <li><a href="/Source code/Trang chủ/home.html">HOME</a></li>
                 <li><a href="/Source code/Trang Books/book.html">BOOKS</a></li>
                 <li><a href="">ART</a></li>
                 <li><a href="">LIBRARIE HAYDÉE</a></li>
                 <li><a href="/Source code/Blog/blog.html">BLOG</a></li>
-                <li><a href="/Source code/About/about.html">ABOUT</a></li>
+                <li><a href="">ABOUT</a></li>
                 <li><a href="/Source code/Contact/contact.html">CONTACT</a></li>
+                <select class="ngon_ngu_2" name="" id="">
+                    <option value="">VN</option>
+                    <option value="">EN</option>
+                </select> 
+                <i id="close" class="fa-solid fa-xmark"></i>
             </ul>
-            <a href=""><i class="fa-solid fa-bag-shopping fa-xl"></i></a>
+            <div class="shopping">
+                <a href="/Source code/Cart/cart.html"><i class="fa-solid fa-bag-shopping fa-xl"></i></a>
+                <span class="quantity">0</span>
+            </div>
         </div>
     </section>
        
@@ -216,12 +225,12 @@ For many years New York–based photographer Aaron Stern resisted taking picture
                 <a href=""><img src="img/gg_dow.jpg" alt=""></a>
             </div>
             <p>Secured Payment Gateways</p>
-            <a href=""><img src="img/pay.jpg" alt=""></a>
+            <a href=""><img class="pay" src="img/pay.jpg" alt=""></a>
         </div>
     </footer>
     <div class="copyright">
         <p>© 2023 Van Lang University™. All rights reserved.</p>
     </div>
     <!-- footer end  -->
-
+    <script src="script1.js"></script>
 </html>

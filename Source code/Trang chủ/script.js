@@ -7,6 +7,10 @@ const CardWidth = asd.querySelector(".v").offsetWidth;
 const carouselChildrens = [...ass.children];
 const Childrens = [...asd.children];
 
+const open = document.getElementById('open');
+const menu1 = document.getElementById('menu');
+const close = document.getElementById('close');
+
 
 
 let isDragging = false, startX, startScrollLeft;
@@ -94,6 +98,18 @@ const infiniteScrollAsd = () => {
     asd.scrollLeft = 1;
   }
 };
+
+if(open){
+  open.addEventListener('click', ()=>{
+      menu1.classList.add('active')
+  })
+}
+
+if(close){
+  close.addEventListener('click', ()=>{
+      menu1.classList.remove('active')
+  })
+}
 
 ass.addEventListener("mousedown", dragStartAss);
 ass.addEventListener("mousemove", draggingAss);
