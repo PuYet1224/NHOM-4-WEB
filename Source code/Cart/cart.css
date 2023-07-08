@@ -7,9 +7,6 @@ body{
     width: 100%;
     font-family: 'Poppins', sans-serif;
 }
-li{
-    list-style: none;
-}
 /* header  */
 #header{
     margin: 0 100px;
@@ -19,8 +16,6 @@ li{
 }
 .signin{
     padding-left: 15px;
-}
-.header_top{
 }
 .header_top ul {
     display: flex;
@@ -158,6 +153,11 @@ li{
 }
 
 /* header end */
+
+
+
+
+
 /* page header is here  */
 #page_header{
     background-image: url(img/book_background.jpg);
@@ -188,123 +188,6 @@ li{
     font-weight: 500;
 }
 /* page header end  */
-
-/* body is here */
-#contact_details{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-#contact_details .details{
-    width: 43%;
-
-}
-#contact_details .details span,
-#form_details form span{
-    font-size: 15px;
-}
-#contact_details .details h2,
-#form_details form h2{
-    font-size: 30px;
-    line-height: 35px;
-    padding: 20px 0;
-}
-#contact_details .details h3{
-    font-size: 20px;
-    padding-bottom: 16px ;
-}
-#contact_details .details li{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    padding: 17px 0;
-}
-#contact_details .details li i{
-    font-size: 17px;
-    padding-right: 20px;
-
-}
-#contact_details .details li p {
-    margin: 0;
-    font-size: 17px;
-}
-#contact_details .map{
-    width: 48%;
-    height: 400px;
-
-}
-#contact_details .map iframe{
-    height: 100%;
-    width: 100%;
-}
-
-#form_details{
-    display: flex;
-    justify-content: space-between;
-    margin: 100px;
-    padding: 100px;
-    border: 1px solid #e1e1e1;
-}
-#form_details form{
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-#form_details form input,
-#form_details form textarea{
-    width: 100%;
-    padding: 12px 15px;
-    outline: none;
-    margin-bottom: 20px;
-    border: 1px solid #e1e1e1;
-}
-#form_details form button{
-    background-color: #088178;
-    color: #fff;
-    font-size: 15px;
-    white-space: nowrap;
-    padding: 15px 35px ;
-    margin-top: 8px ;
-    border-radius: 8px ;
-    border: none;
-    cursor: pointer;
-    white-space: 10px;
-    transition: all 0.35s ease;
-}
-#form_details form button:hover{
-    background-color: #055f59;
-}
-#form_details .people div{
-    padding-bottom: 40px;
-    display: flex;
-    align-items: flex-start;
-
-}
-#form_details .people div img{
-    width: 65px;
-    height: 65px;
-    object-fit: cover;
-    margin-right: 35px;
-}
-#form_details .people div p{
-    margin: 0;
-    font-size: 13px;
-    line-height: 25px;
-
-}
-#form_details .people div p span{
-    display: block;
-    font-size: 25px;
-    font-weight: 600;
-    color: #000;
-    padding-bottom: 3px;
-}
-
-
-/* body end  */
-
 /* email is here  */
 .section_p1{
     padding: 40px 150px;
@@ -366,6 +249,121 @@ li{
 }
 
 /* email end  */
+
+/* body is here  */
+#cart{
+    overflow-x: auto;
+}
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed ;
+    white-space: nowrap;
+}
+#cart table img{
+    width: 70px;
+}
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+
+}
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(3){
+    width: 250px;
+    text-align: center;
+}
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+#cart table thead{
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+
+}
+#cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+#cart table tbody tr td{
+    padding-top: 15px;
+}
+#cart table tbody td{
+    font-size: 13px;
+}
+
+#cart_add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+
+}
+#subtotal h3,
+#coupon h3{
+    margin-bottom: 20px;
+}
+#coupon input{
+    padding: 15px 25px;
+    outline:none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+    border-radius: 5px;
+}
+#coupon button,
+.normal{
+    background-color: #088178;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 35px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    white-space: 10px;
+    transition: all 0.35s ease;
+}
+#coupon button:hover,
+.normal:hover{
+    background-color: #055f59;
+}
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#subtotal table td{
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+}
+
+/* body end  */
 
 /* footer is here */
 .section_p1{
@@ -452,3 +450,10 @@ footer .install img{
 }
 
 /* footer end  */
+/* reponsice is here  */
+@media screen and (max-width: 376px) {
+    .header_bottom{
+        display: none;
+    }
+}
+/* reponsive end  */
