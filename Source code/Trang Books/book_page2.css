@@ -424,3 +424,47 @@ footer .install img{
 .trang ul li a:hover{
     color: black;
 }
+
+
+
+@media screen and (max-width: 376px){
+    #page_header h1{
+        font-size: 40px;
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        letter-spacing: 5px;
+    }
+    #page_header p{
+        font-size: 15px;
+    }
+    .cartplus span{
+        left: 83%;
+    }
+    .section_p1{
+        padding: 0px 10px;
+        display: block;
+        text-align: start;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .section_p1 .form{
+width: 100%;
+    }
+    #newsletter input{
+        padding: 10px 110px;
+    }
+    .pay{
+        width: 100%;
+    }
+    .copyright p{
+        font-size: 14px;
+    }
+    .row img{
+        width: 35%;
+        height: auto;
+    }
+    .pay{
+        width: 100%;
+    }
+}
