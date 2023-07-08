@@ -477,7 +477,8 @@ footer .install img{
     }
     .header_mid img{
         position: relative;
-        left: 30vw;
+        display: block;
+        margin: 0 auto;
     }
     .fa-xmark{
         position: absolute;
@@ -507,7 +508,7 @@ footer .install img{
         right: 5px;
     }
     #page_header h1{
-        font-size: 38px;
+        font-size: 45px;
     }
     #page_header{
         height: 25vh;
@@ -517,14 +518,54 @@ footer .install img{
     }
 
     /* header end */
-    .section_p1{
-        padding: 20px 75px;
+
+    /* body is here */
+    #blog{
+        padding: 100px 20px 0 50px ;
     }
+    #blog .blog_box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #blog .blog_img{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #blog .blog_details{
+        width: 100% ;
+    }
+    /* body end  */
+
+    /* footer  */
+    .section_p1{
+        padding: 20px 40px;
+        display: block;
+        text-align: start;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .section_p1 .form{
+        width: 100%;
+    }
+    #newsletter input{
+        padding: 10px 110px;
+    }
+    .pay{
+        width: 70%;
+    }
+    .copyright p{
+        font-size: 14px;
+    }
+    .row img{
+        width: 35%;
+        height: auto;
+    }
+    /* footer end  */
 }
 @media (max-width: 477px) {
-    body{
 
-    }
 }
 
 /* responsive end  */
