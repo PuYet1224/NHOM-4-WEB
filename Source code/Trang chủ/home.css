@@ -1249,6 +1249,119 @@ footer .install img{
         height: auto;
     }
 }
+@media (max-width: 799px) {
+    /* header is here  */
+    #header{
+        margin: 20px 50px;
+    }
+    #menu{
+        padding: 50px 0 0 0 ;
+        position: fixed;
+        top: 0;
+        left: -300px;
+        max-width: 500px;
+        height: 100vh;
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        box-shadow: 2px 0 5px -2px #888;
+        border-left: 7px solid #055f59dd;
+        z-index: 100000;
+        transition: all 0.4s ease;
+    }
+    #menu.active{
+        left: 0px;
+    }
+    #menu li{
+        margin-bottom:  30px ;
+    }
+    #menu li a{
+        margin-right: 100px;
+    }
+    .fa-bars{
+        display: block;
+        position: absolute;
+        font-size: 20px;
+    }
+    .ngon_ngu_2{
+        display: block;
+        padding: 3px;
+        margin: 0px 25px;
+        margin-right: 200px;
+    }
+    .ngon_ngu{
+        display: none ;
+    }
+    .header_mid img{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+    .fa-xmark{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: rgba(0, 0, 0, 0.527);
+        font-size: 20px;
+        /* border: 1px solid rgba(0, 0, 0, 0.557);  
+        border-radius: 50%;
+        text-align: center;
+        padding: 3px 5px; */
+    }
+    #close{
+        display: block;
+    }
+    .shopping span{
+        top: 222px;
+        right: 45px;
+    }
+    .search-box:focus {
+        width: 200px;
+    }
+    .fa-bag-shopping{
+        font-size: 20px;
+    }
+    .search-container{
+        right: 5px;
+    }
+    #page_header h1{
+        font-size: 45px;
+    }
+    #page_header{
+        height: 25vh;
+    }
+    #page_header p{
+        font-size: 15px;
+    }
+
+    /* header end */
+      /* footer  */
+      .section_p1{
+        padding: 20px 40px;
+        display: block;
+        text-align: start;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .section_p1 .form{
+        width: 100%;
+    }
+    #newsletter input{
+        padding: 10px 110px;
+    }
+    .pay{
+        width: 70%;
+    }
+    .copyright p{
+        font-size: 14px;
+    }
+    .row img{
+        width: 35%;
+        height: auto;
+    }
+    /* footer end  */
+}
 
     
 

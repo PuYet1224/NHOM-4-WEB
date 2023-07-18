@@ -1,0 +1,25 @@
+{
+  "name": "nhom-4-web-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PuYet1224/NHOM-4-WEB.git"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PuYet1224/NHOM-4-WEB/issues"
+  },
+  "homepage": "https://github.com/PuYet1224/NHOM-4-WEB#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
